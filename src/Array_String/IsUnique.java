@@ -4,6 +4,7 @@ package Array_String;
 public class IsUnique {
     public boolean checker(String s) {
         boolean[] allchar = new boolean[128];
+        if (s.length() > 128) return false;
         for (char c : s.toLowerCase().toCharArray()) {
             int index = (int) c;
             if (allchar[index]) return false;
