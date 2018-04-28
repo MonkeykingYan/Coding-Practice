@@ -6,3 +6,22 @@
 
 
 2. **Check Permutation:** Given 2 strings, write a method to determine if one is a permutation of the other. **Ans:** plz check [CheckPermutation](https://github.com/MonkeykingYan/Coding-Practice/blob/master/src/Array_String/CheckPermutation.java)
+
+
+## Linked Lists
+
+## Stack and Queues
+
+## Trees and Graphs
+
+## Bit Manipulation
+
+## Math and Logic
+
+## Object-Oriented Design
+
+## Recursion and Dynamic Programming
+
+## System Design
+
+## Sorting and Searching
