@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fde5c35-10c9-4eff-8801-a415c1c5e848" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array_String/IsUnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_String/CheckPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Coding-Practice/Array_String/IsUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Coding-Practice/Array_String/IsUnique.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsUnique.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IsUnique.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array_String/IsUnique.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="312">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckPermutation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array_String/CheckPermutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -49,6 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Array_String/IsUnique.java" />
+        <option value="$PROJECT_DIR$/src/Array_String/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/Array_String/CheckPermutation.java" />
       </list>
     </option>
   </component>
@@ -82,12 +95,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Array_String" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MY" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -108,7 +115,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsUnique">
+  <component name="RunManager" selected="Application.CheckPermutation">
+    <configuration name="CheckPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_String.CheckPermutation" />
+      <module name="Coding-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array_String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="IsUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array_String.IsUnique" />
       <module name="Coding-Practice" />
@@ -144,9 +161,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.IsUnique" />
+      <item itemvalue="Application.CheckPermutation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckPermutation" />
         <item itemvalue="Application.IsUnique" />
       </list>
     </recent_temporary>
@@ -170,7 +189,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.328594" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -202,6 +221,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/MY/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array_String/IsUnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/MY/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
@@ -216,8 +249,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Array_String/IsUnique.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="312">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array_String/CheckPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
