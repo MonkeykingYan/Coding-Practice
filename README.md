@@ -9,19 +9,28 @@
 
 
 ## Linked Lists
+* pending
 
 ## Stack and Queues
+* pending
 
 ## Trees and Graphs
+* pending
 
 ## Bit Manipulation
+* pending
 
 ## Math and Logic
+* pending
 
 ## Object-Oriented Design
+* pending
 
 ## Recursion and Dynamic Programming
+* pending
 
 ## System Design
+* pending
 
 ## Sorting and Searching
+* pending
