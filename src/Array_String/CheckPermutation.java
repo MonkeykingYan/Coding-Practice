@@ -31,12 +31,24 @@ public class CheckPermutation {
         return new String(content);
     }
 
+    public boolean solution2(String s1, String s2) {
+        if (s1.length() != s2.length()) return false;
+        int[] checker = new int[128];
+        for (char c : s1.toCharArray()) {
+            checker[c]++;
+        }
+        for (char c : s2.toCharArray()) {
+            checker[c]--;
+            if (checker[c] < 0) return false;
+        }
+        return true;
+    }
 
     public static void main(String argv[]) {
         String t1 = "mayan";
-        String t2 = "yanma";
+        String t2 = "yanna";
         CheckPermutation cp = new CheckPermutation();
-        boolean res = cp.solution1(t1, t2);
+        boolean res = cp.solution2(t1, t2);
         System.out.print(res);
     }
 }
