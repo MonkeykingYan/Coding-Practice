@@ -14,45 +14,31 @@ import java.util.Hashtable;
  * pale, bake -> false
  */
 public class OneAway {
-    String origin;
-    String curr;
-    Hashtable<Character, Integer> currTable;
-    Hashtable<Character, Integer> originTable;
 
-    private OneAway(String origin, String curr) {
-        this.curr = curr;
-        this.origin = origin;
-        currTable = new Hashtable<>();
-        originTable = new Hashtable<>();
-        for (char c : curr.toCharArray()) {
-            currTable.put(c, currTable.getOrDefault(c, 0) + 1);
-        }
-        for (char c : origin.toCharArray()) {
-            originTable.put(c, originTable.getOrDefault(c, 0) + 1);
-        }
-
-    }
-
-
-    private boolean checkInsert() {
-        if (curr.length() <= origin.length()) return false;
-        //Insert is curr has all the chars that origin has, and has at least one char not in the origin
-        //Idea: Using hash table, hashing origin one and check the curr one
-        for (char c : currTable.keySet()) {
-            if (currTable.get(c) < originTable.get(c)) return true;
-        }
+    private boolean checkOneAway(String origin, String curr)
+    {
+        if(origin.length()==curr.length())
+            return checkReplace(origin, curr);
+        else if(origin.length()== curr.length()+1)
+            return checkDelete(origin, curr);
+        else if(curr.length() == origin.length()+1)
+            return checkInsert(origin, curr);
         return false;
     }
 
-    private boolean checkReplace(String s1, String s2) {
-        if (s1.length() != s2.length()) return false;
-        //??
-        return false;
+    private boolean checkReplace(String origin, String curr)
+    {
+
     }
 
-    private boolean checkRemove(String s1, String s2) {
-        // ??
-        return false;
+    private boolean checkDelete(String origin, String curr)
+    {
+
+    }
+
+    private boolean checkInsert(String origin, String curr)
+    {
+
     }
 
 
