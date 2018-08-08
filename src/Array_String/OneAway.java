@@ -28,30 +28,72 @@ public class OneAway {
 
     private boolean checkReplace(String origin, String curr) {
         // idea is to sort the string and to compare the different
-        char[] originCharrArray  = origin.toCharArray();
-        Arrays.sort(originCharrArray);
-
+        char[] originCharrArray = origin.toCharArray();
         char[] currCharArray = curr.toCharArray();
-        Arrays.sort(currCharArray);
 
         int numDiff = 0;
-        for(int i = 0 ; i <originCharrArray.length; i ++)
-        {
-            if(currCharArray[i]!=originCharrArray[i]) numDiff++;
+        for (int i = 0; i < originCharrArray.length; i++) {
+            if (currCharArray[i] != originCharrArray[i]) numDiff++;
         }
-
-        return numDiff<=1;
-
-
-        return false;
+        System.out.println("This is a replace operation");
+        return numDiff == 1;
     }
 
     private boolean checkDelete(String origin, String curr) {
-        return false;
+        // The idea is sort the array and check if delete?
+        char[] originCharrArray = origin.toCharArray();
+        char[] currCharArray = curr.toCharArray();
+
+        int p1 = 0;
+        int p2 = 0;
+        int diff = 0;
+
+        while (p2 < currCharArray.length) {
+            if (originCharrArray[p1] != currCharArray[p2]) {
+                p1++;
+                diff++;
+                continue;
+            }
+            p1++;
+            p2++;
+        }
+        System.out.println("This is a delete operation");
+        return diff <= 1;
     }
 
     private boolean checkInsert(String origin, String curr) {
-        return false;
+        char[] originCharrArray = origin.toCharArray();
+
+        char[] currCharArray = curr.toCharArray();
+
+        // The idea is sort the string and compare the diff
+        int p1 = 0;
+        int p2 = 0;
+        int diff = 0;
+
+        while (p2 < currCharArray.length) {
+            if (originCharrArray[p1] != currCharArray[p2]) {
+                p2++;
+                diff++;
+                continue;
+            }
+            p1++;
+            p2++;
+        }
+
+        System.out.println("This is an insert operation");
+        return diff <= 1;
     }
+
+
+    public static void main(String[] argv) {
+        String test1 = "pale";
+        String test2 = "bale";
+
+        OneAway on = new OneAway();
+        System.out.println(on.checkOneAway(test1, test2));
+    }
+
+
 }
 
