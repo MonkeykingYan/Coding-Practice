@@ -1,5 +1,6 @@
 package Array_String;
 
+import java.util.Arrays;
 import java.util.Hashtable;
 
 /**
@@ -15,31 +16,42 @@ import java.util.Hashtable;
  */
 public class OneAway {
 
-    private boolean checkOneAway(String origin, String curr)
-    {
-        if(origin.length()==curr.length())
+    private boolean checkOneAway(String origin, String curr) {
+        if (origin.length() == curr.length())
             return checkReplace(origin, curr);
-        else if(origin.length()== curr.length()+1)
+        else if (origin.length() == curr.length() + 1)
             return checkDelete(origin, curr);
-        else if(curr.length() == origin.length()+1)
+        else if (curr.length() == origin.length() + 1)
             return checkInsert(origin, curr);
         return false;
     }
 
-    private boolean checkReplace(String origin, String curr)
-    {
+    private boolean checkReplace(String origin, String curr) {
+        // idea is to sort the string and to compare the different
+        char[] originCharrArray  = origin.toCharArray();
+        Arrays.sort(originCharrArray);
 
+        char[] currCharArray = curr.toCharArray();
+        Arrays.sort(currCharArray);
+
+        int numDiff = 0;
+        for(int i = 0 ; i <originCharrArray.length; i ++)
+        {
+            if(currCharArray[i]!=originCharrArray[i]) numDiff++;
+        }
+
+        return numDiff<=1;
+
+
+        return false;
     }
 
-    private boolean checkDelete(String origin, String curr)
-    {
-
+    private boolean checkDelete(String origin, String curr) {
+        return false;
     }
 
-    private boolean checkInsert(String origin, String curr)
-    {
-
+    private boolean checkInsert(String origin, String curr) {
+        return false;
     }
-
-
 }
+
