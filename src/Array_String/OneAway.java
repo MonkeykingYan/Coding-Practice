@@ -20,9 +20,9 @@ public class OneAway {
         if (origin.length() == curr.length())
             return checkReplace(origin, curr);
         else if (origin.length() == curr.length() + 1)
-            return checkDelete(origin, curr);
+            return checkInsertorDelete(origin, curr);
         else if (curr.length() == origin.length() + 1)
-            return checkInsert(origin, curr);
+            return checkInsertorDelete(curr, origin);
         return false;
     }
 
@@ -39,7 +39,7 @@ public class OneAway {
         return numDiff == 1;
     }
 
-    private boolean checkDelete(String origin, String curr) {
+    private boolean checkInsertorDelete(String origin, String curr) {
         // The idea is sort the array and check if delete?
         char[] originCharrArray = origin.toCharArray();
         char[] currCharArray = curr.toCharArray();
@@ -61,34 +61,9 @@ public class OneAway {
         return diff <= 1;
     }
 
-    private boolean checkInsert(String origin, String curr) {
-        char[] originCharrArray = origin.toCharArray();
-
-        char[] currCharArray = curr.toCharArray();
-
-        // The idea is sort the string and compare the diff
-        int p1 = 0;
-        int p2 = 0;
-        int diff = 0;
-
-        while (p2 < currCharArray.length) {
-            if (originCharrArray[p1] != currCharArray[p2]) {
-                p2++;
-                diff++;
-                continue;
-            }
-            p1++;
-            p2++;
-        }
-
-        System.out.println("This is an insert operation");
-        return diff <= 1;
-    }
-
-
     public static void main(String[] argv) {
         String test1 = "pale";
-        String test2 = "bale";
+        String test2 = "ple";
 
         OneAway on = new OneAway();
         System.out.println(on.checkOneAway(test1, test2));
