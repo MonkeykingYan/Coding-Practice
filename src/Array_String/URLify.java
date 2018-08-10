@@ -47,9 +47,9 @@ public class URLify {
     }
 
     public static void main(String[] argv) {
-        String test = "mayan xihuan weiya   wei         ";
+        String test = "mayan xihuan dalanqiu   ";
         URLify url = new URLify();
-        String res = url.urlify(test, 24);
+        String res = url.urlify(test, 21);
         System.out.println(res);
     }
 }
