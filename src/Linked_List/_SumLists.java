@@ -18,6 +18,11 @@ import java.util.List;
  * EXAMPLE
  * lnput:(6 -> 1 -> 7) + (2 -> 9 -> 5).That is,617 + 295.
  * Output: 9 - > 1 -> 2. That is, 912.
+ *
+ *
+ * Test:
+ * [2. Add Two Numbers] https://leetcode.com/problems/add-two-numbers/description/
+ * [445. Add Two Numbers II] https://leetcode.com/problems/add-two-numbers-ii/description/
  */
 public class _SumLists {
 
