@@ -10,9 +10,9 @@ import java.util.List;
  * EXAMPLE
  * Input: (7-> 1 -> 6) + (5 -> 9 -> 2).That is,617 + 295.
  * Output: 2 -> 1 -> 9. That is, 912.
- *
- *
- *
+ * <p>
+ * <p>
+ * <p>
  * FOLLOW UP
  * Suppose the digits are stored in forward order. Repeat the above problem.
  * EXAMPLE
@@ -28,26 +28,28 @@ public class _SumLists {
 
     // Idea: Decimal addition
     private ListNode sumByReversedOrder(ListNode head1, ListNode head2) {
-        ListNode sumNode = null;
+
         boolean carryFlag = false;
-        int sum;
+        int sum = 0;
         List<ListNode> newLists = new ArrayList<>();
-        while (head1 != null & head2 != null) {
-            if (carryFlag) sum = this.getNodeValue(head1) + this.getNodeValue(head2);
+        while (head1 != null || head2 != null) {
+            if (!carryFlag) sum = this.getNodeValue(head1) + this.getNodeValue(head2);
             else sum = this.getNodeValue(head1) + this.getNodeValue(head2) + 1;
 
-            if (sum > 10) {
-                sumNode = new ListNode(sum - 10);
+            if (sum >= 10) {
+                newLists.add(new ListNode(sum - 10));
                 carryFlag = true;
             } else {
-                sumNode = new ListNode(sum);
+                newLists.add(new ListNode(sum));
+                carryFlag = false;
             }
 
-
-            head1 = head1.next;
-            head2 = head2.next;
-            newLists.add(sumNode);
+            if(head1 != null)
+                head1 = head1.next;
+            if(head2!=null)
+                head2 = head2.next;
         }
+        if(sum >=10) { newLists.add(new ListNode(1));}
 
         for (int i = 0; i < newLists.size() - 1; i++) {
             newLists.get(i).next = newLists.get(i + 1);
@@ -67,17 +69,17 @@ public class _SumLists {
 
     public static void main(String[] argv) {
         // Test (6 -> 1 -> 7) + (2 -> 9 -> 5).That is, 617 + 295.
-        ListNode node1 = new ListNode(6);
-        ListNode node2 = new ListNode(1);
-        ListNode node3 = new ListNode(7);
+        ListNode node1 = new ListNode(1);
+        ListNode node2 = new ListNode(8);
+        ListNode node3 = new ListNode(6);
         node1.next = node2;
-        //node2.next = node3;
+//        node2.next = node3;
 
-        ListNode node4 = new ListNode(2);
+        ListNode node4 = new ListNode(0);
         ListNode node5 = new ListNode(9);
-        ListNode node6 = new ListNode(5);
-        node4.next = node5;
-        node5.next = node6;
+        ListNode node6 = new ListNode(2);
+//        node4.next = node5;
+//        node5.next = node6;
 
         new Display_LinkedList(node1);
         System.out.println("  ");
