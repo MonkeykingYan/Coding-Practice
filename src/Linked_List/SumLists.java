@@ -24,7 +24,7 @@ import java.util.List;
  * [2. Add Two Numbers] https://leetcode.com/problems/add-two-numbers/description/
  * [445. Add Two Numbers II] https://leetcode.com/problems/add-two-numbers-ii/description/
  */
-public class _SumLists {
+public class SumLists {
 
     // Idea: Decimal addition
     private ListNode sumByReversedOrder(ListNode head1, ListNode head2) {
@@ -109,7 +109,7 @@ public class _SumLists {
 //        node4.next = node5;
 //        node5.next = node6;
 
-        _SumLists s = new _SumLists();
+        SumLists s = new SumLists();
         new Display_LinkedList(node1);
         System.out.println(" ");
         new Display_LinkedList(s.getReverseLinkedList(node1));
