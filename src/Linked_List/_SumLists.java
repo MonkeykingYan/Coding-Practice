@@ -18,8 +18,8 @@ import java.util.List;
  * EXAMPLE
  * lnput:(6 -> 1 -> 7) + (2 -> 9 -> 5).That is,617 + 295.
  * Output: 9 - > 1 -> 2. That is, 912.
- *
- *
+ * <p>
+ * <p>
  * Test:
  * [2. Add Two Numbers] https://leetcode.com/problems/add-two-numbers/description/
  * [445. Add Two Numbers II] https://leetcode.com/problems/add-two-numbers-ii/description/
@@ -44,12 +44,14 @@ public class _SumLists {
                 carryFlag = false;
             }
 
-            if(head1 != null)
+            if (head1 != null)
                 head1 = head1.next;
-            if(head2!=null)
+            if (head2 != null)
                 head2 = head2.next;
         }
-        if(sum >=10) { newLists.add(new ListNode(1));}
+        if (sum >= 10) {
+            newLists.add(new ListNode(1));
+        }
 
         for (int i = 0; i < newLists.size() - 1; i++) {
             newLists.get(i).next = newLists.get(i + 1);
