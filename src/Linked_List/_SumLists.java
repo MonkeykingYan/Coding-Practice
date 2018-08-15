@@ -59,8 +59,34 @@ public class _SumLists {
         return newLists.get(0);
     }
 
-    private void sumByForwardOrder(ListNode head1, ListNode head2) {
+    private ListNode sumByForwardOrder(ListNode head1, ListNode head2) {
+        // idea: Reverse the linked list and then do the reversed linked list sum
+        ListNode header1 = this.getReverseLinkedList(head1);
+        ListNode header2 = this.getReverseLinkedList(head2);
 
+        return this.getReverseLinkedList(this.sumByReversedOrder(header1, header2));
+
+    }
+
+    /**
+     * Here is another question about linked list (Reverse Linked List)
+     * https://leetcode.com/problems/reverse-linked-list/description/
+     *
+     * @param head
+     */
+    private ListNode getReverseLinkedList(ListNode head) {
+        // idea: for 1 loop and 2 pointers
+        ListNode slower = null;
+        ListNode runner = head;
+        ListNode temp;
+        while (runner != null) {
+            temp = runner.next;
+            //slower.next = null;
+            runner.next = slower;
+            slower = runner;
+            runner = temp;
+        }
+        return slower;
     }
 
     private int getNodeValue(ListNode node) {
@@ -75,7 +101,7 @@ public class _SumLists {
         ListNode node2 = new ListNode(8);
         ListNode node3 = new ListNode(6);
         node1.next = node2;
-//        node2.next = node3;
+        node2.next = node3;
 
         ListNode node4 = new ListNode(0);
         ListNode node5 = new ListNode(9);
@@ -83,13 +109,11 @@ public class _SumLists {
 //        node4.next = node5;
 //        node5.next = node6;
 
+        _SumLists s = new _SumLists();
         new Display_LinkedList(node1);
-        System.out.println("  ");
-        new Display_LinkedList(node4);
+        System.out.println(" ");
+        new Display_LinkedList(s.getReverseLinkedList(node1));
 
-        _SumLists sum = new _SumLists();
-        System.out.println("  ");
-        new Display_LinkedList(sum.sumByReversedOrder(node1, node4));
 
     }
 }
