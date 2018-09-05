@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f182d7b-e99c-4c76-bfba-fa30cb32e534" name="Default" comment="" />
+    <list default="true" id="3f182d7b-e99c-4c76-bfba-fa30cb32e534" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeGraph/checkBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeGraph/_checkBalanced.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,15 +82,68 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="java" value="448" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="448" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StackQueues/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-999">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TreeGraph/_checkBalanced.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TreeGraph/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,6 +188,9 @@
         <option value="$PROJECT_DIR$/src/StackQueues/_MinStack.java" />
         <option value="$PROJECT_DIR$/src/StackQueues/MinStack.java" />
         <option value="$PROJECT_DIR$/src/StackQueues/MyQueue.java" />
+        <option value="$PROJECT_DIR$/src/TreeGraph/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/TreeGraph/checkBalanced.java" />
+        <option value="$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java" />
       </list>
     </option>
   </component>
@@ -162,6 +222,18 @@
               <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Recursion_Dynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -173,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536101405061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536106384081" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -192,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReturnKthtoLast">
+  <component name="RunManager" selected="Application.TripleSteps">
     <configuration name="DeleteMiddleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Linked_List.DeleteMiddleNode" />
       <module name="lol" />
@@ -214,20 +286,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Linked_List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackQueues.MinStack" />
-      <module name="lol" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StackQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,6 +321,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TripleSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_Dynamic.TripleSteps" />
+      <module name="lol" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion_Dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -286,14 +358,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinStack" />
       <item itemvalue="Application.ReturnKthtoLast" />
       <item itemvalue="Application.DeleteMiddleNode" />
       <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.LinkedListCycle" />
+      <item itemvalue="Application.TripleSteps" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TripleSteps" />
         <item itemvalue="Application.LinkedListCycle" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.DeleteMiddleNode" />
@@ -331,17 +404,18 @@
       <workItem from="1534856704435" duration="2193000" />
       <workItem from="1534944831041" duration="1006000" />
       <workItem from="1534946277721" duration="32000" />
-      <workItem from="1536100271709" duration="134000" />
+      <workItem from="1536100271709" duration="2668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75339000" />
+    <option name="totallyTimeSpent" value="77873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.12619808" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.12619808" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.1682641" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,14 +425,14 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20422535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20422535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2082495" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2082495" />
       <window_info anchor="bottom" id="JProfiler" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32997987" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -432,6 +506,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-999">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeGraph/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeGraph/_checkBalanced.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
