@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f182d7b-e99c-4c76-bfba-fa30cb32e534" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeGraph/checkBalanced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeGraph/_checkBalanced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lol/Linked_List/SumLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lol/Linked_List/SumLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lol/Recursion_Dynamic/TripleSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lol/Recursion_Dynamic/TripleSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,8 +79,10 @@
     <session id="-155005484">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -95,12 +98,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="448" />
+          <entry key="java" value="725" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="448" />
+          <entry key="JAVA" value="725" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -111,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StackQueues/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-999">
+            <state relative-caret-position="29">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
@@ -129,8 +132,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="290">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -140,10 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="29">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#118#119#0" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -222,35 +221,23 @@
               <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Recursion_Dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeGraph" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536106384081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536610338504" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -404,18 +391,20 @@
       <workItem from="1534856704435" duration="2193000" />
       <workItem from="1534944831041" duration="1006000" />
       <workItem from="1534946277721" duration="32000" />
-      <workItem from="1536100271709" duration="2668000" />
+      <workItem from="1536100271709" duration="4530000" />
+      <workItem from="1536251900330" duration="358000" />
+      <workItem from="1536595728814" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77873000" />
+    <option name="totallyTimeSpent" value="81574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.12619808" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.08519702" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.1682641" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -425,14 +414,14 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20422535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14688128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2082495" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20765027" />
       <window_info anchor="bottom" id="JProfiler" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32997987" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -504,19 +493,8 @@
     <entry file="file://$PROJECT_DIR$/src/StackQueues/MinStack.java" />
     <entry file="file://$PROJECT_DIR$/src/StackQueues/MyQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-999">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TreeGraph/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,10 +505,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeGraph/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="290">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
         </state>
       </provider>
     </entry>

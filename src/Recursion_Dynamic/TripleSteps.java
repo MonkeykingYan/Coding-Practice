@@ -1,5 +1,7 @@
 package Recursion_Dynamic;
 
+import java.util.HashMap;
+
 /**
  * You are climbing a stair case. It takes n steps to reach to the top.
  * <p>
@@ -26,15 +28,19 @@ package Recursion_Dynamic;
 public class TripleSteps {
 
     public int climbStairs(int n) {
-        if (n < 0) return 0;
-        if (n == 0) return 1;
-        if (n == 1) return 1;
-        return climbStairs(n - 1) + climbStairs(n - 2);
+        if (n <= 0 || n == 1 || n == 2) return n;
+        int[] resArr = new int[n];
+        resArr[0] = 1;
+        resArr[1] = 2;
+        for (int i = 2; i < n; i++) {
+            resArr[i] = resArr[i - 1] + resArr[i - 2];
+        }
+        return resArr[n - 1];
     }
 
     public static void main(String[] argv) {
         TripleSteps t = new TripleSteps();
-        System.out.println(t.climbStairs(44));
+        System.out.println(t.climbStairs(5));
     }
 
 }
