@@ -14,30 +14,28 @@ import java.util.List;
  */
 public class Parens {
     public List<String> generateParenthesis(int n) {
-        String curr = "";
         List<String> res = new ArrayList<>();
-        this.helper(0, 0, "(", n, curr, res);
+        this.helper(0, 0, n, "", res);
         return res;
     }
 
-    private void helper(int front, int back, String p, int n, String curr, List<String> res) {
+    private void helper(int front, int back, int n, String curr, List<String> res) {
+
         if (back == n) {
-            System.out.println(curr);
             res.add(curr);
             return;
         }
 
-        if (front < back) {
-            curr = curr + ")";
-            back++;
-        } else {
-            curr = curr + p;
-            if (p.equals("(")) front++;
-            if (p.equals(")")) back++;
+        if (front < n) {
+            this.helper(front + 1, back, n, curr + "(", res);
         }
-        this.helper(front, back, ")", n, curr, res);
-        this.helper(front, back, "(", n, curr, res);
+
+        if (back < front) {
+            this.helper(front, back + 1, n, curr + ")", res);
+        }
+
     }
+
 
     public static void main(String[] argv) {
         Parens p = new Parens();
