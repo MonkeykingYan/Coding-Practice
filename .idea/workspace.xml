@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f182d7b-e99c-4c76-bfba-fa30cb32e534" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Recursion_Dynamic/Coins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lol/Recursion_Dynamic/Parens.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lol/Recursion_Dynamic/Parens.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion_Dynamic/Parens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion_Dynamic/Parens.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,34 +77,35 @@
     <session id="-155005484">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="2808" />
+          <entry key="java" value="4227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2808" />
+          <entry key="JAVA" value="4227" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -149,14 +149,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Recursion_Dynamic/Parens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="261">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Recursion_Dynamic/Coins.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-123">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -215,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/Recursion_Dynamic/TripleSteps.java" />
         <option value="$PROJECT_DIR$/src/Recursion_Dynamic/PowerSet.java" />
         <option value="$PROJECT_DIR$/src/Recursion_Dynamic/Parens.java" />
+        <option value="$PROJECT_DIR$/src/Recursion_Dynamic/Coins.java" />
       </list>
     </option>
   </component>
@@ -224,10 +234,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="48" />
-    <option name="y" value="23" />
-    <option name="width" value="1873" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="52" />
+    <option name="y" value="22" />
+    <option name="width" value="1868" />
     <option name="height" value="1058" />
   </component>
   <component name="ProjectView">
@@ -235,8 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,13 +267,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536960926926" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537133177493" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -284,14 +294,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Parens">
-    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linked_List.LinkedListCycle" />
+  <component name="RunManager" selected="Application.Coins">
+    <configuration name="Coins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion_Dynamic.Coins" />
       <module name="lol" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Linked_List.*" />
+          <option name="PATTERN" value="Recursion_Dynamic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,8 +309,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linked_List.Palindrome" />
+    <configuration name="LinkedListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linked_List.LinkedListCycle" />
       <module name="lol" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -378,19 +388,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Palindrome" />
       <item itemvalue="Application.LinkedListCycle" />
       <item itemvalue="Application.TripleSteps" />
       <item itemvalue="Application.PowerSet" />
       <item itemvalue="Application.Parens" />
+      <item itemvalue="Application.Coins" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Coins" />
         <item itemvalue="Application.Parens" />
         <item itemvalue="Application.PowerSet" />
         <item itemvalue="Application.TripleSteps" />
         <item itemvalue="Application.LinkedListCycle" />
-        <item itemvalue="Application.Palindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -429,18 +439,19 @@
       <workItem from="1536595728814" duration="12195000" />
       <workItem from="1536869188892" duration="4075000" />
       <workItem from="1536878258651" duration="1668000" />
-      <workItem from="1536958741292" duration="2168000" />
+      <workItem from="1536958741292" duration="2638000" />
+      <workItem from="1537042262645" duration="6440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100199000" />
+    <option name="totallyTimeSpent" value="107109000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="22" width="1870" height="1058" extended-state="6" />
+    <frame x="52" y="22" width="1868" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.20733042" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497151" visible="true" weight="0.20920044" />
       <window_info id="Structure" order="1" sideWeight="0.502849" side_tool="true" weight="0.1682641" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,7 +461,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35894737" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993964" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -564,11 +575,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Recursion_Dynamic/Parens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        <state relative-caret-position="261">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Recursion_Dynamic/Coins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
