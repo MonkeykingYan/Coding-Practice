@@ -10,7 +10,7 @@ public class BinaryTreeTraversal {
 
     List<Integer> res = new ArrayList<>();
 
-    public List<Integer> preorderTraversal(TreeNode root) {
+     List<Integer> preorderTraversal(TreeNode root) {
         if (root != null) {
             res.add(root.val);
             preorderTraversal(root.left);
@@ -19,7 +19,7 @@ public class BinaryTreeTraversal {
         return res;
     }
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+     List<Integer> inorderTraversal(TreeNode root) {
         if (root != null) {
             inorderTraversal(root.left);
             res.add(root.val);
@@ -28,7 +28,7 @@ public class BinaryTreeTraversal {
         return res;
     }
 
-    public List<Integer> postorderTraversal(TreeNode root) {
+     List<Integer> postorderTraversal(TreeNode root) {
         if (root != null) {
             postorderTraversal(root.left);
             postorderTraversal(root.right);
