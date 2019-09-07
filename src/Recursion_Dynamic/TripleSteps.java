@@ -25,7 +25,7 @@ package Recursion_Dynamic;
  */
 public class TripleSteps {
 
-    public int climbStairs(int n) {
+    private int climbStairs(int n) {
         if (n <= 0 || n == 1 || n == 2) return n;
         int[] resArr = new int[n];
         resArr[0] = 1;

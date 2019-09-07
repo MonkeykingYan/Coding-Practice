@@ -13,7 +13,7 @@ import java.util.List;
  * https://leetcode.com/problems/generate-parentheses/description/
  */
 public class Parens {
-    public List<String> generateParenthesis(int n) {
+    private List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
         this.helper(0, 0, n, "", res);
         return res;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PowerSet {
-    public List<List<Integer>> subsets(int[] nums) {
+    private List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         if (nums.length == 0) return res;
         this.getSubSet(nums, 0, res, new ArrayList<>());
@@ -25,7 +25,7 @@ public class PowerSet {
         List<List<Integer>> res = ps.subsets(new int[]{1, 2, 3});
         for (List<Integer> list : res) {
             for (Integer a : list) {
-                System.out.print("" + a+",");
+                System.out.print("" + a + ",");
             }
             System.out.println();
         }

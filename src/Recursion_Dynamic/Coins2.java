@@ -17,7 +17,7 @@ package Recursion_Dynamic;
  * leetcode: https://leetcode.com/problems/coin-change/description/
  */
 public class Coins2 {
-    public int coinChange(int[] coins, int amount) {
+    private int coinChange(int[] coins, int amount) {
         if (amount == 0) return 0;
         int min = amount;
         for (int coin : coins) {
